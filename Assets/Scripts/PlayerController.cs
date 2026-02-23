@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,15 +10,19 @@ public class PlayerController : MonoBehaviour
     public float thrustForce = 2f;
     public GameObject BoosterFlmae;
     Rigidbody2D rb;
+    public UIDocument uiDocument;
+    private Label scoreText;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        scoreText = uiDocument.rootVisualElement.Q<Label>("ScoreLabel");
     }
 
     // Update is called once per frame
     void Update()
     {
+        scoreText.text = "Score: " + score;
         elapsedTime += Time.deltaTime;
         score = Mathf.FloorToInt(elapsedTime * scoreMultiplier);
         Debug.Log("Score: " + score);
