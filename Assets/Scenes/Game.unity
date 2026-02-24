@@ -136,6 +136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2902455277660394423, guid: 210847db330636e499cf016dc372e29e, type: 3}
+      propertyPath: MiniExplosion
+      value: 
+      objectReference: {fileID: 6428297574561647001, guid: 7e9970ad255ed9e4c8c685bf8a5df363, type: 3}
     - target: {fileID: 6750972283584433070, guid: 210847db330636e499cf016dc372e29e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.42
@@ -261,6 +265,7 @@ MonoBehaviour:
   thrustForce: 2
   BoosterFlmae: {fileID: 593885533}
   uiDocument: {fileID: 751240020}
+  explosionEggfect: {fileID: 4998500330532632139, guid: 73e69d9428df2d742b9f55e4ae248ab2, type: 3}
 --- !u!1 &255357037
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,13 +416,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2902455277660394423, guid: 210847db330636e499cf016dc372e29e, type: 3}
+      propertyPath: MiniExplosion
+      value: 
+      objectReference: {fileID: 6428297574561647001, guid: 7e9970ad255ed9e4c8c685bf8a5df363, type: 3}
     - target: {fileID: 6750972283584433070, guid: 210847db330636e499cf016dc372e29e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.03
+      value: -11.57
       objectReference: {fileID: 0}
     - target: {fileID: 6750972283584433070, guid: 210847db330636e499cf016dc372e29e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.27
+      value: 5.53
       objectReference: {fileID: 0}
     - target: {fileID: 6750972283584433070, guid: 210847db330636e499cf016dc372e29e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -564,6 +573,7 @@ MonoBehaviour:
   thrustForce: 2
   BoosterFlmae: {fileID: 593885533}
   uiDocument: {fileID: 0}
+  explosionEggfect: {fileID: 0}
 --- !u!4 &660973959 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6750972283584433070, guid: 210847db330636e499cf016dc372e29e, type: 3}
@@ -581,6 +591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2902455277660394423, guid: 210847db330636e499cf016dc372e29e, type: 3}
+      propertyPath: MiniExplosion
+      value: 
+      objectReference: {fileID: 6428297574561647001, guid: 7e9970ad255ed9e4c8c685bf8a5df363, type: 3}
     - target: {fileID: 6750972283584433070, guid: 210847db330636e499cf016dc372e29e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.69
@@ -733,6 +747,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2902455277660394423, guid: 210847db330636e499cf016dc372e29e, type: 3}
+      propertyPath: MiniExplosion
+      value: 
+      objectReference: {fileID: 6428297574561647001, guid: 7e9970ad255ed9e4c8c685bf8a5df363, type: 3}
     - target: {fileID: 6750972283584433070, guid: 210847db330636e499cf016dc372e29e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.52
@@ -795,6 +813,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2902455277660394423, guid: 210847db330636e499cf016dc372e29e, type: 3}
+      propertyPath: MiniExplosion
+      value: 
+      objectReference: {fileID: 6428297574561647001, guid: 7e9970ad255ed9e4c8c685bf8a5df363, type: 3}
     - target: {fileID: 6750972283584433070, guid: 210847db330636e499cf016dc372e29e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.46
@@ -999,6 +1021,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2902455277660394423, guid: 210847db330636e499cf016dc372e29e, type: 3}
+      propertyPath: MiniExplosion
+      value: 
+      objectReference: {fileID: 6428297574561647001, guid: 7e9970ad255ed9e4c8c685bf8a5df363, type: 3}
     - target: {fileID: 6750972283584433070, guid: 210847db330636e499cf016dc372e29e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.09
@@ -1940,6 +1966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 2902455277660394423, guid: 210847db330636e499cf016dc372e29e, type: 3}
+      propertyPath: MiniExplosion
+      value: 
+      objectReference: {fileID: 6428297574561647001, guid: 7e9970ad255ed9e4c8c685bf8a5df363, type: 3}
     - target: {fileID: 6750972283584433070, guid: 210847db330636e499cf016dc372e29e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.75
