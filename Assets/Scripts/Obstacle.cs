@@ -7,7 +7,7 @@ public class Obstacle : MonoBehaviour
     public float minSpeed = 50f;
     public float maxSpeed = 150f;
     public float maxSpinSpeed = 10f;
-
+    public GameObject MiniExplosion;
     Rigidbody2D rb;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -31,4 +31,13 @@ public class Obstacle : MonoBehaviour
     {
         
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+    Vector2 contactPoint = collision.GetContact(0).point; 
+    GameObject bounceEffect = Instantiate(MiniExplosion, contactPoint, Quaternion.identity);
+
+    // Destroy the effect after 1 second
+    Destroy(bounceEffect, 1f);
+    }  
 }
